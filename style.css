@@ -2,18 +2,15 @@ body,html{
     margin: 0;
     padding: 0;
     background-color: hsl(0, 0%, 8%);
-    cursor: url('black-cursor.png');
 }
-body{
-    height: 100vh;
-}
+
 main{
     font-family: 'Inter', sans-serif;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 100vh;
 }
 .hero{
     box-sizing: border-box;
