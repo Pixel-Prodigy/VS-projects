@@ -1,0 +1,91 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 8%);
+    cursor: url('black-cursor.png');
+}
+body{
+    height: 100vh;
+}
+main{
+    font-family: 'Inter', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.hero{
+    box-sizing: border-box;
+    height: 585px;
+    width: 360px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 13px;
+    padding: 35px;
+    padding-bottom: 560px;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 88px;
+    border-radius: 50%;
+}
+p{
+    font-size: 14px;
+}
+.text{
+    margin-top: 26px;
+}
+h2{ 
+    color: white;
+    margin-left: 57px;
+    margin-bottom: 8.5PX;
+    font-weight: 700;
+}
+.place{
+    margin-top: -0px;
+    color: hsl(75, 94%, 57%);
+    margin-left: 66px;
+    font-weight: 600;
+}
+.position{
+    margin-top: 25px;
+    margin-left: 33px;
+    font-weight: 400;
+    color: rgb(220, 220, 220);
+}
+
+.nav{
+    box-sizing: border-box;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 1.5px;    
+    flex-direction: column;
+    gap: 16px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 30px;
+    padding: 8px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 9px;
+} 
+
+.links:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+.links:hover a{
+    color: hsl(0, 0%, 12%);
+}
